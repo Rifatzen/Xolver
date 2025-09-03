@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_convert.py
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data / temporary files
+*.pickle
+*.pkl
+*.p
+*.npy
+*.npz
+*.csv
+*.tsv
+*.jsonl
+*.sqlite
+*.db
+*.sql
+
+# Model checkpoints
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Large data dirs (if used)
+data/
+datasets/
+outputs/
+runs/
+checkpoints/

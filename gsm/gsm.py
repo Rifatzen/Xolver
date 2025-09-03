@@ -236,7 +236,7 @@ def main():
     rounds = 2
     m = agents
 
-    episodic_memory = EpisodicMemory(memory_file="/content/episodic_memory.json")
+    episodic_memory = EpisodicMemory(memory_file="")
 
     def read_jsonl(path):
         with open(path) as f:
